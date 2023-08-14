@@ -21,90 +21,106 @@
   </head>
 
   <body>
-    <header>
-      <a href=""
-        ><img src="./images/logo.png" alt="logo" width="100" height="80"
-      /></a>
-      <button type="button">
-        <svg class="header-svg" width="40" height="30">
-          <use href="./images/symbol-defs.svg#icon-menu"></use>
-        </svg>
-      </button>
-      <nav>
-        <ul>
-          <li>
-            <a href="">Home</a>
-          </li>
-          <li>
-            <a href="">AbouT us</a>
-          </li>
-          <li>
-            <a href="">Services</a>
-          </li>
-          <li>
-            <a href="">Invest in cyprus</a>
-          </li>
-          <li>
-            <a href="">Contuct us</a>
-          </li>
-        </ul>
-      </nav>
+    <header class="container-header">
+      <div class="container">
+        <div class="header-item">
+          <a href=""
+            ><img src="./images/logo.png" alt="logo" width="100" height="80"
+          /></a>
+          <button type="button" class="button-open" data-menu-open>
+            <svg width="40" height="30" class="icon-open">
+              <use href="./images/symbol-defs.svg#icon-menu"></use>
+            </svg>
+          </button>
+        </div>
+        <div class="modal-mobail modal-mobail-item" data-menu>
+          <button type="button" class="close-modal" data-menu-close>
+            <svg width="30" height="30" class="icon-close">
+              <use href="./images/symbol-defs.svg#icon-close-modal"></use>
+            </svg>
+          </button>
+          <nav>
+            <ul class="header-list">
+              <li>
+                <a href="" class="header-menu link">Home</a>
+              </li>
+              <li>
+                <a href="" class="header-menu link">AbouT us</a>
+              </li>
+              <li>
+                <a href="" class="header-menu link">Services</a>
+              </li>
+              <li>
+                <a href="" class="header-menu link">Invest in cyprus</a>
+              </li>
+              <li>
+                <a href="" class="header-menu link">Contuct us</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
     </header>
 
     <main>
-      <section>
-        <ul>
-          <li><a href="">investments</a></li>
-          <li><a href="">business relocation</a></li>
-          <li><a href="">family relocation</a></li>
-        </ul>
-        <h1>Relocating to Cyprus Seamless – Exceptional – Experience.</h1>
-        <p>
-          The captivating Mediterranean island of Cyprus has become a business
-          haven with a flourishing expat community. The strategic location that
-          grants networking opportunities and the stability of being in the EU
-          offers entrepreneurs the abilities they need to thrive.
-        </p>
-        <button type="button">Find Out More</button>
-        <h2>Most popular cities</h2>
-        <ul>
-          <li>
-            <img
-              src="./images/nicosia-tel.png"
-              alt="nicosia-tel"
-              width="129"
-              height="123"
-            />
-            <h3>Nicosia</h3>
-          </li>
-          <li>
-            <img
-              src="./images/limassol-tel.png"
-              alt="limassol-tel"
-              width="129"
-              height="123"
-            />
-            <h3>Limassol</h3>
-          </li>
-          <li>
-            <img
-              src="./images/paphos-tel.png"
-              alt="paphos-tel"
-              width="129"
-              height="123"
-            />
-            <h3>Paphos</h3>
-          </li>
-          <li>
-            <img
-              src="./images/larnaka-tel.png"
-              alt="larnaka-tel"
-              width="129"
-              height="123"
-            />
-            <h3>Larnaka</h3>
-          </li>
-        </ul>
+      <section class="section-mobail">
+        <div class="container">
+          <div class="container-fon">
+            <ul class="item-list list">
+              <li><a href="" class="link-menu link">investments</a></li>
+              <li><a href="" class="link-menu link">business relocation</a></li>
+              <li><a href="" class="link-menu link">family relocation</a></li>
+            </ul>
+            <h1>Relocating to Cyprus Seamless – Exceptional – Experience.</h1>
+            <p>
+              The captivating Mediterranean island of Cyprus has become a
+              business haven with a flourishing expat community. The strategic
+              location that grants networking opportunities and the stability of
+              being in the EU offers entrepreneurs the abilities they need to
+              thrive.
+            </p>
+            <button type="button">Find Out More</button>
+          </div>
+          <h2>Most popular cities</h2>
+          <ul>
+            <li>
+              <img
+                src="./images/nicosia-tel.png"
+                alt="nicosia-tel"
+                width="129"
+                height="123"
+              />
+              <h3>Nicosia</h3>
+            </li>
+            <li>
+              <img
+                src="./images/limassol-tel.png"
+                alt="limassol-tel"
+                width="129"
+                height="123"
+              />
+              <h3>Limassol</h3>
+            </li>
+            <li>
+              <img
+                src="./images/paphos-tel.png"
+                alt="paphos-tel"
+                width="129"
+                height="123"
+              />
+              <h3>Paphos</h3>
+            </li>
+            <li>
+              <img
+                src="./images/larnaka-tel.png"
+                alt="larnaka-tel"
+                width="129"
+                height="123"
+              />
+              <h3>Larnaka</h3>
+            </li>
+          </ul>
+        </div>
       </section>
 
       <section>
@@ -494,5 +510,6 @@
         </li>
       </ul>
     </footer>
+    <script src="./js/mobail-menu.js"></script>
   </body>
 </html>
