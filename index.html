@@ -429,75 +429,103 @@
         </div>
       </section>
 
-      <section>
-        <h2>Contact Us</h2>
-        <img src="./images/nomer-tel.png" alt="" width="40" height="40" />
-        <a href="">+357 9056759</a>
-        <img src="./images/mail-tel.png" alt="" width="40" height="40" />
-        <a href="">contact@pamrelocation.com</a>
-        <form>
-          <label for="name-your">
-            <input
-              type="name"
-              name="name-your"
-              id="name-your"
-              placeholder="Your Name"
-            />
-          </label>
-          <label for="email-main">
-            <input
-              type="email"
-              name="email-main"
-              id="email-main"
-              placeholder="Email"
-            />
-          </label>
-          <label for="text-subject">
-            <input
-              type="text"
-              name="text-subject"
-              id="text-subject"
-              placeholder="Subject"
-            />
-          </label>
-          <label for="tel-user">
-            <input
-              type="tel"
-              name="tel-user"
-              id="tel-user"
-              placeholder="Phone"
-            />
-          </label>
-          <label for="user-comment">
-            <textarea
-              name="user-comment"
-              id="user-comment"
-              placeholder="Your message"
-            ></textarea>
-          </label>
+      <section class="section-contact">
+        <div class="container">
+          <h2 class="text-contact">Contact Us</h2>
+          <ul class="contact-email">
+            <li class="contact-email-list list">
+              <img
+                class="img-tel"
+                src="./images/nomer-tel.png"
+                alt=""
+                width="40"
+                height="40"
+              />
+              <a href="" class="tel-number link">+357 9056759</a>
+            </li>
+            <li>
+              <img
+                class="img-email"
+                src="./images/mail-tel.png"
+                alt=""
+                width="40"
+                height="40"
+              />
+              <a href="" class="email-item link">contact@pamrelocation.com</a>
+            </li>
+          </ul>
+          <div class="container-form">
+            <h2 class="send-text">send inquiry</h2>
+            <form class="form-item">
+              <label for="name-your">
+                <input
+                  class="input-name"
+                  type="name"
+                  name="name-your"
+                  id="name-your"
+                  placeholder="Your Name"
+                />
+              </label>
+              <label for="email-main">
+                <input
+                  class="input-name"
+                  type="email"
+                  name="email-main"
+                  id="email-main"
+                  placeholder="Email"
+                />
+              </label>
+              <label for="text-subject">
+                <input
+                  class="input-name"
+                  type="text"
+                  name="text-subject"
+                  id="text-subject"
+                  placeholder="Subject"
+                />
+              </label>
+              <label for="tel-user">
+                <input
+                  class="input-name"
+                  type="tel"
+                  name="tel-user"
+                  id="tel-user"
+                  placeholder="Phone"
+                />
+              </label>
+              <label for="user-comment">
+                <textarea
+                  class="text-input"
+                  name="user-comment"
+                  id="user-comment"
+                  placeholder="Your message"
+                ></textarea>
+              </label>
 
-          <input
-            type="checkbox"
-            name="user-privacy"
-            id="user-privacy"
-            class="input-check visually-hidden"
-            value="true"
-          />
-          <label for="user-privacy" class="check-text">
-            <span class="icon-vector">
-              <svg class="check-icon" width="10" height="8">
-                <use href="./"></use>
-              </svg>
-            </span>
-            <p>
-              By clicking “Submit button” you accept our
-              <a href="">Terms & Conditions</a> and have read our
-              <a href="">Privacy Policy</a> and <a href="">Disclaimer</a>
-            </p>
-          </label>
-          <button type="submit" class="modal-send">Send</button>
-        </form>
-        <button type="submit">Submit</button>
+              <input
+                type="checkbox"
+                name="user-privacy"
+                id="user-privacy"
+                class="input-check visually-hidden"
+                value="true"
+              />
+              <label for="user-privacy" class="check-text">
+                <span class="icon-vector">
+                  <svg class="check-icon" width="10" height="8">
+                    <use href="./"></use>
+                  </svg>
+                </span>
+                <p>
+                  By clicking “Submit button” you accept our
+                  <a href="">Terms & Conditions</a> and have read our
+                  <a href="">Privacy Policy</a> and <a href="">Disclaimer</a>
+                </p>
+              </label>
+              <button type="submit" class="modal-send">Send</button>
+            </form>
+            <button type="submit" class="button-form">Submit</button>
+          </div>
+        </div>
       </section>
 
       <section>
