@@ -18,15 +18,35 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/media.css" />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
 
   <body>
     <header class="container-header">
       <div class="container">
         <div class="header-item">
-          <a href=""
+          <a class="logo-img" href=""
             ><img src="./images/logo.png" alt="logo" width="100" height="80"
           /></a>
+           <nav class="nav-tablet">
+            <ul class="header-list-tablet">
+              <li>
+                <a href="" class="header-menu-tablet link">Home</a>
+              </li>
+              <li>
+                <a href="" class="header-menu-tablet link">AbouT us</a>
+              </li>
+              <li>
+                <a href="" class="header-menu-tablet link">Services</a>
+              </li>
+              <li>
+                <a href="" class="header-menu-tablet link">Invest in cyprus</a>
+              </li>
+              <li>
+                <a href="" class="header-menu-tablet link">Contuct us</a>
+              </li>
+            </ul>
+          </nav>
           <button type="button" class="button-open" data-menu-open>
             <svg width="40" height="30" class="icon-open">
               <use href="./images/symbol-defs.svg#icon-menu"></use>
@@ -39,7 +59,7 @@
               <use href="./images/symbol-defs.svg#icon-close-modal"></use>
             </svg>
           </button>
-          <nav>
+          <nav class="nav-mabail">
             <ul class="header-list">
               <li>
                 <a href="" class="header-menu link">Home</a>
@@ -85,7 +105,7 @@
             <button type="button" class="button-info">Find Out More</button>
           </div>
           <h2 class="text-popular">Most popular cities</h2>
-          <!-- <ul class="popular-item">
+          <ul class="popular-item">
             <li class="popular-list">
               <img
                 src="./images/nicosia-tel.png"
@@ -122,7 +142,7 @@
               />
               <h3 class="city-text">Larnaka</h3>
             </li>
-          </ul> -->
+          </ul>
         </div>
       </section>
 
@@ -143,6 +163,12 @@
                   alt=""
                   width="300"
                   height="220"
+                />
+                <img class="business-tablet"
+                  src="./images/family-tablet.png"
+                  alt=""
+                  width="580"
+                  height="260"
                 />
                 <div class="container-small">
                   <h2 class="title-item">Family Relocation</h2>
@@ -170,6 +196,12 @@
                   width="300"
                   height="220"
                 />
+                <img class="business-tablet"
+                  src="./images/business-tel.png"
+                  alt=""
+                  width="580"
+                  height="260"
+                />
                 <div class="container-small">
                   <h2 class="title-item">Business Relocation</h2>
                   <p class="paragraf-item">
@@ -196,6 +228,12 @@
                   width="300"
                   height="220"
                 />
+                <img class="business-tablet"
+                  src="./images/investments-tablet.png"
+                  alt=""
+                  width="580"
+                  height="260"
+                />
                 <div class="container-small">
                   <h2 class="title-item">Investments schemes</h2>
                   <p class="paragraf-item">
@@ -215,11 +253,17 @@
       <section class="section-paradise">
         <div class="container">
           <div class="img-size">
-            <img
+            <img class="img-villa-tel"
               src="./images/image-villa-tel.jpg"
               alt="image-villa-tel"
               width="500"
               height="300"
+            />
+            <img class="img-villa-tablet"
+              src="./images/image-villa-tablet.png"
+              alt="image-villa-tel"
+              width="768"
+              height="290"
             />
           </div>
           <div class="text-button">
@@ -243,10 +287,17 @@
             <button class="button-more">Find Out More</button>
           </div>
           <div class="img-size">
-            <img
+            <img class="img-villa-tel"
               src="./images/next-villas-tel.jpg"
               alt="next-villas-tel"
-
+              width="500"
+              height="300"
+            />
+            <img class="img-villa-tablet"
+              src="./images/next-villas-tel.jpg"
+              alt="next-villas-tel"
+              width="768"
+              height="290"
             />
           </div>
         </div>
@@ -254,6 +305,7 @@
 
       <section class="section-cyprus">
         <div class="container">
+          <div class="container-cyprus">
           <h2 class="text-cyprus">Why Choose Cyprus?</h2>
           <p class="paragraf-cyprus">
             When you’re searching for the ideal home you want everything to be
@@ -261,6 +313,7 @@
             around the world are choosing Cyprus as their ultimate destination.
             This smal Mediterranean mesmerizes millions of visitors every year.
           </p>
+          </div>
           <ul class="pros-cyprus">
             <li class="pros-list list">
               <button type="button" class="button-pros">
@@ -348,7 +401,7 @@
       <section class="section-we-are">
         <div class="container">
           <ul>
-            <li>
+            <li class="girl-list-text">
               <h2 class="text-we-are">Who We Are</h2>
               <p class="paragraf-we-are">
                 PAM Consulting is built upon a team of motivated professionals
@@ -370,7 +423,7 @@
                   width="280"
                   height="400"
                 />
-                 <img class="girl-adaptive"
+                <img class="girl-adaptive"
                   src="./images/girl-tel.png"
                   alt="girl-tel"
                   width="240"

@@ -269,7 +269,10 @@ ul {
   font-style: normal;
   font-weight: 600;
   line-height: 32px; /* 160% */
-  padding: 10px 45px 10px 8px;
+  padding: 5px 10px 10px 8px;
+}
+.nav-tablet {
+  display: none;
 }
 /** --------------section-2--------------- */
 .section-services {
@@ -349,6 +352,9 @@ ul {
   justify-content: center;
   row-gap: 20px;
 }
+.business-tablet {
+  display: none;
+}
 /** --------------section-3--------------- */
 .section-paradise {
   background: var(
@@ -370,7 +376,6 @@ ul {
 .img-size img {
   width: 100%;
   height: auto;
-  display: block;
   margin: 0;
 }
 .text-button {
@@ -469,6 +474,12 @@ ul {
   font-weight: 600;
   line-height: 32px; /* 160% */
 }
+.container-cyprus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 .text-size {
   width: 120px;
 }
@@ -508,6 +519,9 @@ ul {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+}
+.img-villa-tablet {
+  display: none;
 }
 /** --------------section-4--------------- */
 .section-map {
@@ -558,6 +572,7 @@ ul {
   font-weight: 600;
   line-height: 29px; /* 72.5% */
   margin-bottom: 24px;
+  text-align: center;
 }
 
 .paragraf-we-are {
@@ -570,6 +585,7 @@ ul {
   letter-spacing: 0.5px;
   margin-bottom: 10px;
   width: 380px;
+  text-align: center;
 }
 .paragraf-next {
   color: #fff;
@@ -581,6 +597,7 @@ ul {
   letter-spacing: 0.5px;
   margin-bottom: 24px;
   width: 380px;
+  text-align: center;
 }
 .button-we-are {
   border-radius: 30px;
@@ -596,6 +613,14 @@ ul {
   border: none;
   padding: 9px 24px;
   margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+.girl-list-text {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .girl-info {
   color: #6d31d0;
@@ -671,6 +696,7 @@ ul {
   font-weight: 600;
   line-height: 40px; /* 111.111% */
   text-transform: uppercase;
+  margin-bottom: 20px;
 }
 .methods-info {
   color: #6d31d0;
@@ -1062,6 +1088,7 @@ ul {
 
   .text-cyprus {
     font-size: 26px;
+    width: 290px;
   }
   .paragraf-cyprus {
     color: #434364;
