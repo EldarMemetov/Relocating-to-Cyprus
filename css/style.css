@@ -67,6 +67,7 @@
     box-shadow: 0px 14px 23px 0px rgba(28, 37, 44, 0.08);
     width: 580px;
     border-radius: 33px;
+    min-height: 524px;
   }
   .paragraf-item {
     width: 400px;
