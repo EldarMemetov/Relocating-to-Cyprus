@@ -69,6 +69,13 @@
     border-radius: 33px;
     min-height: 524px;
   }
+  .container-small {
+    display: flex;
+    justify-content: center;
+    row-gap: 20px;
+    flex-direction: column;
+    align-items: center;
+  }
   .paragraf-item {
     width: 400px;
   }
