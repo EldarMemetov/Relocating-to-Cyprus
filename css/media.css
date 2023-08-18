@@ -972,6 +972,12 @@ ul {
   margin-right: auto;
   margin-bottom: 60px;
 }
+.footer-container-tablet {
+  display: none;
+}
+.footer-image-tablet {
+  display: none;
+}
 .button-footer {
   border-radius: 20px;
   background: linear-gradient(141deg, #53269d 0%, #6d31d0 100%);
