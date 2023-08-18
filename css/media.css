@@ -1195,4 +1195,7 @@ ul {
     flex-direction: column;
     gap: 10px;
   }
+  .footer-container-comp {
+    display: none;
+  }
 }

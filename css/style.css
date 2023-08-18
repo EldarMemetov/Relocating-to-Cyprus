@@ -208,6 +208,9 @@
   .text-ambitions {
     width: 221px;
   }
+  .footer-container-comp {
+    display: none;
+  }
 }
 
 /** --------------NEXT--------------- */
@@ -236,9 +239,12 @@
     height: 48px;
     margin-left: auto;
     margin-top: 13px;
-    margin-right: 50px;
     display: block;
     border: none;
+    cursor: pointer;
+  }
+  .header-list-tablet {
+    margin-right: 50px;
   }
   /** --------------section-1--------------- */
   .section-mobail {
@@ -342,5 +348,45 @@
   }
   .map-tel {
     margin: auto;
+  }
+  /** --------------section-6--------------- */
+  .girl-list-item {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+  }
+  .paragraf-we-are {
+    width: 450px;
+  }
+  .paragraf-next {
+    width: 450px;
+  }
+  .girl-list {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  /** --------------section-7--------------- */
+  .item-methods {
+    flex-wrap: nowrap;
+  }
+  /** --------------section-8--------------- */
+  /** --------------section-9--------------- */
+  .partners-item {
+    flex-wrap: nowrap;
+  }
+  /** --------------footer--------------- */
+  .footer-container-comp {
+    display: inline-block;
+    border-radius: 20px;
+    background: #fff;
+    box-shadow: 0px 14px 23px 0px rgba(28, 37, 44, 0.08);
+    width: 300px;
+    height: 496px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+  }
+  .footer-container-maim {
+    flex-wrap: wrap;
   }
 }
