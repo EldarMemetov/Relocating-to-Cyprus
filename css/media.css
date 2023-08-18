@@ -62,7 +62,9 @@ ul {
 }
 
 /** --------------header--------------- */
-
+.button-header {
+  display: none;
+}
 .container-header {
   background-color: #6d31d0;
 }
@@ -557,6 +559,9 @@ ul {
   line-height: 24px; /* 150% */
   letter-spacing: 0.5px;
   margin-bottom: 60px;
+}
+.container-img-item {
+  display: none;
 }
 /** --------------section-5--------------- */
 .section-we-are {
