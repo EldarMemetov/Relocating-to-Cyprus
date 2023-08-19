@@ -49,14 +49,19 @@
   /** --------------section-1--------------- */
   .popular-item {
     justify-content: center;
+    display: inline-block;
+    display: flex;
   }
   .text-popular {
     margin-left: 71px;
     margin-bottom: 16px;
+    display: inline-block;
+    display: flex;
   }
   .popular-list {
     margin-bottom: 20px;
   }
+
   /** --------------section-2--------------- */
 
   .business-tel {
@@ -157,7 +162,7 @@
     padding: 20px 20px 2px 20px;
   }
   .text-policy {
-    width: 566px;
+    width: 532px;
   }
   /** --------------section-8--------------- */
   .partners-list {
@@ -179,6 +184,7 @@
     display: flex;
     gap: 16px;
     justify-content: center;
+    flex-wrap: wrap;
   }
   .footer-image-tel {
     display: none;
@@ -243,9 +249,7 @@
     border: none;
     cursor: pointer;
   }
-  .header-list-tablet {
-    margin-right: 50px;
-  }
+
   /** --------------section-1--------------- */
   .section-mobail {
     background-image: url(../images/fon-comp.png);

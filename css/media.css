@@ -243,10 +243,12 @@ ul {
   font-weight: 600;
   line-height: 32px; /* 160% */
   font-family: Montserrat;
+  display: none;
 }
 .popular-item {
   display: flex;
   gap: 20px;
+  display: none;
 }
 .popular-list {
   border-radius: 12px;
@@ -1046,6 +1048,9 @@ ul {
   font-style: normal;
   font-weight: 500;
   line-height: 140%; /* 22.4px */
+}
+.footer-container-comp {
+  display: none;
 }
 /** --------------adaptive--------------- */
 
