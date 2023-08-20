@@ -223,7 +223,7 @@ ul {
   background-color: #ffeb80;
   box-shadow: 0px 3.5266273021698px 35.266273498535156px 0px
     rgba(255, 185, 175, 0.3);
-  color: var(--pam-color-1, #6d31d0);
+  color: #6d31d0;
   border: none;
   text-align: center;
   font-size: 20px;
@@ -233,6 +233,7 @@ ul {
   padding: 16px 22px 16px 22px;
   margin-bottom: 102px;
   font-family: Montserrat;
+  cursor: pointer;
 }
 .text-popular {
   color: #fff;
@@ -325,7 +326,7 @@ ul {
   );
   box-shadow: 0px 3.5266273021698px 35.266273498535156px 0px
     rgba(255, 185, 175, 0.3);
-  color: var(--pam-color-1, #6d31d0);
+  color: #6d31d0;
   text-align: center;
   font-family: Montserrat;
   font-size: 20px;
@@ -335,6 +336,7 @@ ul {
   padding: 16px 22px 16px 22px;
   border: none;
   margin-bottom: 20px;
+  cursor: pointer;
 }
 .container-info {
   border-radius: 20px;
@@ -439,7 +441,9 @@ ul {
   padding: 16px 22px 16px 22px;
   margin-bottom: 40px;
   border: none;
+  cursor: pointer;
 }
+
 /** --------------section-3--------------- */
 .section-cyprus {
   padding-top: 60px;
@@ -621,6 +625,7 @@ ul {
   margin-left: auto;
   margin-right: auto;
   display: flex;
+  cursor: pointer;
 }
 .girl-list-text {
   display: flex;
@@ -687,10 +692,7 @@ ul {
 .section-methods {
   padding-top: 80px;
   padding-bottom: 80px;
-  background: var(
-    --pam-color-linear-3,
-    linear-gradient(180deg, #fefc9e 0%, #fdbfa3 78.65%)
-  );
+  background: linear-gradient(180deg, #fefc9e 0%, #fdbfa3 78.65%);
 }
 .methods-text {
   color: #434364;
@@ -1001,6 +1003,7 @@ ul {
   position: absolute;
   margin-top: -60px;
   margin-left: 282px;
+  cursor: pointer;
 }
 .text-question {
   color: #6d31d0;

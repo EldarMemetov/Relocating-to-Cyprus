@@ -335,8 +335,7 @@ ul {
   gap: 30px;
   margin-bottom: 30px;
 }
-.contact-email-list {
-}
+
 .img-information-comp {
   display: none;
 }
@@ -517,6 +516,9 @@ ul {
 .footer-container-comp {
   display: none;
 }
+.img-main {
+  display: none;
+}
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
@@ -621,6 +623,9 @@ ul {
     width: 532px;
   }
   .img-information-comp {
+    display: none;
+  }
+  .img-main {
     display: none;
   }
 }
@@ -728,6 +733,66 @@ ul {
   .img-information-comp {
     display: block;
   }
+  .img-main {
+    display: none;
+  }
+  .family-title {
+    width: 273px;
+  }
 }
 @media screen and (min-width: 320px) and (max-width: 440px) {
+  .living-info-list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+  }
+  .living-info {
+    width: 200px;
+  }
+  .living-text {
+    width: 275px;
+  }
+  .living-info-center {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+  }
+  .living-info-text {
+    min-width: 200px;
+  }
+  .can-help-item {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+  }
+  .can-help-list {
+    width: calc((100% - 95px) / 1);
+  }
+  .container-form {
+    width: 100%;
+  }
+  .input-check {
+    width: 22px;
+    height: 22px;
+    margin-right: 10px;
+  }
+  .tel-img-partner {
+    display: none;
+  }
+  .adaptive-img-partner {
+    display: block;
+  }
+  .img-information {
+    display: none;
+  }
+  .img-main {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
