@@ -159,6 +159,133 @@ ul {
   background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;
+  padding-bottom: 470px;
+  padding-top: 60px;
+}
+.family-title {
+  color: #434364;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px; /* 111.111% */
+  background: linear-gradient(
+    178deg,
+    #fff 62.06%,
+    rgba(255, 255, 255, 0.77) 78.73%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+/** --------------section-2--------------- */
+.life-info {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.living-text {
+  color: #434364;
+  font-family: Avenir Next;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px; /* 114.286% */
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 34px;
+}
+.living-info {
+  color: #434364;
+  font-family: Avenir Next;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.5px;
+  margin-bottom: 20px;
+}
+.text-label {
+  list-style-type: initial;
+}
+.img-information {
+  margin: auto;
+}
+/** --------------section-3--------------- */
+.section-community {
+  padding-bottom: 34px;
+}
+.text-community {
+  color: #434364;
+  font-family: Avenir Next;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px; /* 114.286% */
+  text-transform: uppercase;
+  text-align: center;
+}
+/** --------------section-4--------------- */
+.section-like {
+  padding-bottom: 34px;
+}
+.text-like {
+  color: #434364;
+  font-family: Avenir Next;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px; /* 114.286% */
+  text-transform: uppercase;
+  margin-bottom: 34px;
+  text-align: center;
+}
+/** --------------section-5--------------- */
+.section-help-info {
+  background: linear-gradient(180deg, #fefc9e 0%, #fdbfa3 78.65%);
+  padding-top: 80px;
+}
+.text-help {
+  color: #434364;
+  text-align: center;
+  font-family: Avenir Next;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px; /* 111.111% */
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.can-help-item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.can-help-list {
+  width: calc((100% - 16px) / 2);
+}
+.img-icon-tel {
+  margin: auto;
+}
+.info-help {
+  color: #6d31d0;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px; /* 160% */
+  width: 190px;
+}
+.info-help-text {
+  color: #434364;
+  text-align: center;
+  font-family: Avenir Next;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.5px;
+  margin-bottom: 20px;
 }
 /** --------------FORM--------------- */
 .section-contact {
