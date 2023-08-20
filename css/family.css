@@ -749,10 +749,10 @@ ul {
     align-content: center;
   }
   .living-info {
-    width: 200px;
+    min-width: 200px;
   }
   .living-text {
-    width: 275px;
+    min-width: 275px;
   }
   .living-info-center {
     display: flex;
@@ -771,7 +771,10 @@ ul {
     align-items: center;
   }
   .can-help-list {
-    width: calc((100% - 95px) / 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .container-form {
     width: 100%;
