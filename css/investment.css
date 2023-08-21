@@ -155,7 +155,7 @@ ul {
 /** --------------section-1--------------- */
 
 .section-family {
-  background-image: url(../images/family-info-tel.png);
+  background-image: url(../images/investment-img/investment-tel.png);
   background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -569,7 +569,7 @@ ul {
   }
   /** --------------section-1--------------- */
   .section-family {
-    background-image: url(../images/family-info-tablet.png);
+    background-image: url(../images/investment-img/investment-tablet.png);
   }
   /** --------------section-2--------------- */
   .living-info {
@@ -662,7 +662,7 @@ ul {
   }
   /** --------------section-1--------------- */
   .section-family {
-    background-image: url(../images/family-info-comp.png);
+    background-image: url(../images/investment-img/investment-comp.png);
   }
   /** --------------section-2--------------- */
   .img-information-tablet {
@@ -680,6 +680,9 @@ ul {
   .living-text {
     text-align: center;
   }
+  .living-info {
+    min-width: 1080px;
+  }
   /** --------------section-3--------------- */
   .living-info-center {
     display: flex;
@@ -689,13 +692,16 @@ ul {
   .text-community {
     margin-bottom: 20px;
   }
-  .living-info {
-    min-width: 1080px;
-  }
   .living-info-text {
+    color: #434364;
+    font-family: Avenir Next;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.5px;
     margin-bottom: 20px;
   }
-
   .img-information-comp {
     margin: auto;
   }
@@ -717,6 +723,7 @@ ul {
     display: flex;
     justify-content: center;
     flex-wrap: nowrap;
+    align-items: flex-start;
   }
   .info-help {
     width: 200px;
