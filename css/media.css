@@ -1,31 +1,7 @@
-@font-face {
-  font-family: "avenir_nextregular";
-  src: url("../avenirnext-regular-webfont.eot");
-  src: url("../avenirnext-regular-webfont.eot?#iefix")
-      format("embedded-opentype"),
-    url("../avenirnext-regular-webfont.woff2") format("woff2"),
-    url("../avenirnext-regular-webfont.woff") format("woff"),
-    url("../avenirnext-regular-webfont.ttf") format("truetype"),
-    url("../avenirnext-regular-webfont.svg#avenir_nextregular") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "montserratregular";
-  src: url("../montserrat-webfont.eot");
-  src: url("../montserrat-webfont.eot?#iefix") format("embedded-opentype"),
-    url("../montserrat-webfont.woff2") format("woff2"),
-    url("../montserrat-webfont.woff") format("woff"),
-    url("../montserrat-webfont.ttf") format("truetype"),
-    url("../montserrat-webfont.svg#montserratregular") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
 body {
-  /* font-family: "Roboto", sans-serif; */
+  font-family: "Roboto", sans-serif;
   background-color: #ffffff;
-  color: #434455;
+  color: #434364;
 }
 
 .container {
@@ -106,7 +82,7 @@ ul {
   flex-direction: column;
   overflow: auto;
   border-radius: 30px 0px 30px 30px;
-  background: var(--white, #fefefe);
+  background: #fefefe;
   box-shadow: 0px 4px 24px 0px rgba(105, 105, 105, 0.1);
   top: 22%;
   left: 72%;
@@ -135,12 +111,11 @@ ul {
 .header-menu {
   font-size: 16px;
   font-style: normal;
-  font-family: Avenir Next;
   font-weight: 500;
   line-height: 140%; /* 22.4px */
   text-transform: uppercase;
-  color: #434364;
   text-align: center;
+  color: #434364;
 }
 .header-list {
   display: flex;
@@ -171,9 +146,8 @@ ul {
   gap: 30px;
 }
 .link-menu {
-  color: var(--pam-color-3, #ffdb80);
+  color: #ffdb80;
   text-shadow: 0px 0px 80px #023f76;
-  font-family: Montserrat;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -186,36 +160,28 @@ ul {
   color: #fff;
   text-align: center;
   text-shadow: 0px 0px 100px rgba(2, 63, 118, 0.5);
-  font-family: Montserrat;
-  font-size: 36px;
-  font-style: normal;
-  font-weight: 600;
+  font-size: 40px;
   line-height: 40px; /* 111.111% */
-  width: 400px;
   margin-top: 30px;
+  font-family: "Raleway", sans-serif;
 }
 .main-title-next {
   color: #fff;
   text-align: center;
   text-shadow: 0px 0px 100px rgba(2, 63, 118, 0.5);
-  font-family: Montserrat;
+  font-family: "Raleway", sans-serif;
   font-size: 22px;
-  font-style: normal;
-  font-weight: 600;
   line-height: 40px; /* 111.111% */
   margin-bottom: 30px;
 }
 .info-title {
   color: #fff;
   text-align: center;
-  font-family: Avenir Next;
   text-shadow: 0px 0px 80px #023f76;
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 24px; /* 150% */
   letter-spacing: 0.5px;
-  width: 365px;
+  min-width: 365px;
   margin-bottom: 30px;
 }
 .button-info {
@@ -232,16 +198,12 @@ ul {
   line-height: 32px; /* 160% */
   padding: 16px 22px 16px 22px;
   margin-bottom: 102px;
-  font-family: Montserrat;
   cursor: pointer;
 }
 .text-popular {
   color: #fff;
   font-size: 20px;
-  font-style: normal;
-  font-weight: 600;
   line-height: 32px; /* 160% */
-  font-family: Montserrat;
   display: none;
 }
 .popular-item {
@@ -267,7 +229,6 @@ ul {
 }
 .city-text {
   color: #828cde;
-  font-family: Montserrat;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -287,29 +248,24 @@ ul {
   display: none;
 }
 .text-services {
-  font-family: Avenir Next;
+  font-family: "Raleway", sans-serif;
   color: #fff;
   text-align: center;
   font-size: 36px;
-  font-style: normal;
-  font-weight: 600;
   line-height: 40px; /* 111.111% */
   text-transform: uppercase;
   margin-bottom: 60px;
 }
 .title-item {
-  font-family: Avenir Next;
+  font-family: "Raleway", sans-serif;
   color: #434364;
   text-align: center;
-  font-size: 28px;
-  font-style: normal;
-  font-weight: 600;
+  font-size: 21px;
   line-height: 32px; /* 114.286% */
   text-transform: uppercase;
   margin-top: 20px;
 }
 .paragraf-item {
-  font-family: Avenir Next;
   color: #434364;
   text-align: center;
   font-size: 16px;
@@ -320,15 +276,11 @@ ul {
 }
 .button-informacion {
   border-radius: 88.166px;
-  background: var(
-    --pam-color-linear-9,
-    linear-gradient(152deg, #ffeb80 0%, #fdbfa3 100%)
-  );
+  background: linear-gradient(152deg, #ffeb80 0%, #fdbfa3 100%);
   box-shadow: 0px 3.5266273021698px 35.266273498535156px 0px
     rgba(255, 185, 175, 0.3);
   color: #6d31d0;
   text-align: center;
-  font-family: Montserrat;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -340,7 +292,7 @@ ul {
 }
 .container-info {
   border-radius: 20px;
-  background: var(--pam-color-6, #fff);
+  background: #fff;
   box-shadow: 0px 14px 23px 0px rgba(28, 37, 44, 0.08);
   width: 380px;
 }
@@ -361,13 +313,10 @@ ul {
 }
 /** --------------section-3--------------- */
 .section-paradise {
-  background: var(
-    --pam-color-linear-9,
-    linear-gradient(152deg, #80d19f 0%, #fdbfa3 100%)
-  );
+  background: linear-gradient(152deg, #80d19f 0%, #fdbfa3 100%);
   box-shadow: 0px 3.5266273021698px 35.266273498535156px 0px
     rgba(255, 185, 175, 0.3);
-  color: var(--pam-color-1, #6d31d0);
+  color: #6d31d0;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -389,25 +338,20 @@ ul {
 }
 
 .text-moving {
+  font-family: "Raleway", sans-serif;
   color: #434364;
   text-align: center;
-  font-family: Avenir Next;
   font-size: 36px;
-  font-style: normal;
-  font-weight: 600;
   line-height: 40px; /* 111.111% */
   text-transform: uppercase;
-  width: 408px;
+  min-width: 408px;
   margin-bottom: 30px;
   margin-top: 40px;
 }
 .text-paragraf {
   color: #434364;
   text-align: center;
-  font-family: Avenir Next;
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 24px; /* 150% */
   letter-spacing: 0.5px;
   margin-bottom: 10px;
@@ -415,25 +359,18 @@ ul {
 .text-paragraf-next {
   color: #434364;
   text-align: center;
-  font-family: Avenir Next;
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 24px; /* 150% */
   letter-spacing: 0.5px;
   margin-bottom: 30px;
 }
 .button-more {
   border-radius: 88.166px;
-  background: var(
-    --pam-color-linear-9,
-    linear-gradient(152deg, #ffeb80 0%, #fdbfa3 100%)
-  );
+  background: linear-gradient(152deg, #ffeb80 0%, #fdbfa3 100%);
   box-shadow: 0px 3.5266273021698px 35.266273498535156px 0px
     rgba(255, 185, 175, 0.3);
   color: #6d31d0;
   text-align: center;
-  font-family: Montserrat;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -452,21 +389,18 @@ ul {
 }
 .text-cyprus {
   color: #434364;
-  font-family: Montserrat;
   font-size: 40px;
   font-style: normal;
   font-weight: 600;
   line-height: 29px; /* 72.5% */
-  width: 440px;
-  margin-bottom: 11px;
+  min-width: 440px;
+  margin-bottom: 20px;
+  text-align: center;
 }
 .paragraf-cyprus {
   color: #434364;
   text-align: center;
-  font-family: Avenir Next;
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 24px; /* 150% */
   letter-spacing: 0.5px;
   margin-bottom: 40px;
@@ -474,11 +408,11 @@ ul {
 .info-cyprus {
   color: #6d31d0;
   text-align: center;
-  font-family: Montserrat;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
   line-height: 32px; /* 160% */
+  font-family: "Raleway", sans-serif;
 }
 .container-cyprus {
   display: flex;
@@ -498,7 +432,6 @@ ul {
 .description-cyprus {
   color: #434364;
   text-align: center;
-  font-family: Avenir Next;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -544,8 +477,8 @@ ul {
 }
 .map-info {
   color: #6d31d0;
+  font-family: "Raleway", sans-serif;
   text-align: center;
-  font-family: Avenir Next;
   font-size: 28px;
   font-style: normal;
   font-weight: 600;
@@ -556,7 +489,6 @@ ul {
 .map-text {
   color: #434364;
   text-align: center;
-  font-family: Avenir Next;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -575,7 +507,6 @@ ul {
 }
 .text-we-are {
   color: #fff;
-  font-family: Avenir Next;
   font-size: 40px;
   font-style: normal;
   font-weight: 600;
@@ -586,11 +517,10 @@ ul {
 
 .paragraf-we-are {
   color: #fff;
-  font-family: Avenir Next;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px; /* 150% */
+  line-height: 20px; /* 150% */
   letter-spacing: 0.5px;
   margin-bottom: 10px;
   width: 380px;
@@ -598,11 +528,10 @@ ul {
 }
 .paragraf-next {
   color: #fff;
-  font-family: Avenir Next;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px; /* 150% */
+  line-height: 20px; /* 150% */
   letter-spacing: 0.5px;
   margin-bottom: 24px;
   width: 380px;
@@ -614,7 +543,6 @@ ul {
   box-shadow: 0px 14px 23px 0px rgba(28, 37, 44, 0.08);
   color: #6d31d0;
   text-align: center;
-  font-family: Montserrat;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -634,7 +562,7 @@ ul {
 }
 .girl-info {
   color: #6d31d0;
-  font-family: Montserrat;
+  font-family: "Raleway", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -645,7 +573,6 @@ ul {
 .girl-name {
   color: #434364;
   text-align: center;
-  font-family: Avenir Next;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -659,7 +586,6 @@ ul {
   box-shadow: 0px 14px 23px 0px rgba(28, 37, 44, 0.08);
   color: #6d31d0;
   text-align: center;
-  font-family: Montserrat;
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
@@ -697,7 +623,6 @@ ul {
 .methods-text {
   color: #434364;
   text-align: center;
-  font-family: Avenir Next;
   font-size: 36px;
   font-style: normal;
   font-weight: 600;
@@ -706,9 +631,9 @@ ul {
   margin-bottom: 20px;
 }
 .methods-info {
+  font-family: "Raleway", sans-serif;
   color: #6d31d0;
   text-align: center;
-  font-family: Montserrat;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -717,13 +642,12 @@ ul {
 .description-methods {
   color: #434364;
   text-align: center;
-  font-family: Avenir Next;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 24px; /* 150% */
   letter-spacing: 0.5px;
-  width: 180px;
+  min-width: 180px;
 }
 .item-methods {
   display: flex;
@@ -753,7 +677,6 @@ ul {
 .text-contact {
   color: #434364;
   text-align: center;
-  font-family: Avenir Next;
   font-size: 36px;
   font-style: normal;
   font-weight: 600;
@@ -772,7 +695,6 @@ ul {
 }
 .tel-number {
   color: #6d31d0;
-  font-family: Montserrat;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -789,7 +711,6 @@ ul {
 }
 .email-item {
   color: #6d31d0;
-  font-family: Montserrat;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -811,7 +732,7 @@ ul {
 .send-text {
   color: #434364;
   text-align: center;
-  font-family: Avenir Next;
+  font-family: "Raleway", sans-serif;
   font-size: 28px;
   font-style: normal;
   font-weight: 600;
@@ -821,7 +742,7 @@ ul {
 }
 .input-name {
   border-radius: 20px;
-  background: var(--pam-color-6, #fff);
+  background: #fff;
   box-shadow: 0px 4px 8px 0px rgba(28, 37, 44, 0.08);
   border: none;
   width: 100%;
@@ -836,8 +757,6 @@ ul {
 }
 .input-name::placeholder {
   color: #434364;
-  font-feature-settings: "clig" off, "liga" off;
-  font-family: Avenir Next;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -851,7 +770,6 @@ ul {
   width: 100%;
   height: 200px;
   color: #434364;
-  font-family: Avenir Next;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -862,7 +780,6 @@ ul {
 }
 .text-input::placeholder {
   color: #434364;
-  font-family: Avenir Next;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -880,7 +797,6 @@ ul {
   box-shadow: 0px 14px 23px 0px rgba(28, 37, 44, 0.08);
   color: #0d0d0e;
   text-align: center;
-  font-family: Avenir Next;
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
@@ -894,7 +810,6 @@ ul {
 }
 .text-policy {
   color: #434364;
-  font-family: Avenir Next;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -905,7 +820,6 @@ ul {
 }
 .link-policy {
   color: #6d31d0;
-  font-family: Avenir Next;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -925,7 +839,7 @@ ul {
 .partners-text {
   color: #434364;
   text-align: center;
-  font-family: Avenir Next;
+  font-family: "Raleway", sans-serif;
   font-size: 36px;
   font-style: normal;
   font-weight: 600;
@@ -961,7 +875,6 @@ ul {
 .text-asked {
   color: #fff;
   text-align: center;
-  font-family: Avenir Next;
   font-size: 36px;
   font-style: normal;
   font-weight: 600;
@@ -992,7 +905,6 @@ ul {
     rgba(28, 37, 44, 0.08);
   color: #fff;
   text-align: right;
-  font-family: Avenir Next;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -1007,7 +919,6 @@ ul {
 }
 .text-question {
   color: #6d31d0;
-  font-family: Montserrat;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -1019,7 +930,6 @@ ul {
 }
 .text-ambitions {
   color: #434364;
-  font-family: Avenir Next;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -1044,7 +954,6 @@ ul {
 .footer-text-policy {
   color: #fff;
   text-align: center;
-  font-family: Avenir Next;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;

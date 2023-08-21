@@ -30,7 +30,6 @@
   .header-menu-tablet {
     font-size: 16px;
     font-style: normal;
-    font-family: Avenir Next;
     font-weight: 500;
     line-height: 140%;
     text-transform: uppercase;
@@ -236,7 +235,6 @@
     box-shadow: 0px 14px 23px 0px rgba(28, 37, 44, 0.08);
     color: #6d31d0;
     text-align: center;
-    font-family: Montserrat;
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
@@ -260,7 +258,6 @@
   .text-popular {
     margin-left: 106px;
     margin-bottom: 16px;
-    /* text-align: center; */
   }
   .popular-item {
     justify-content: space-evenly;
@@ -314,7 +311,7 @@
     box-shadow: 12.803688049316406px 15.364425659179688px 13px 0px
       rgba(0, 0, 0, 0.04);
     width: 460px;
-    height: 530px;
+    min-height: 530px;
   }
   .img-container-info {
     display: flex;
@@ -340,7 +337,6 @@
   .sunny-city-text {
     color: #434364;
     text-align: center;
-    font-family: Avenir Next;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -348,8 +344,7 @@
     letter-spacing: 0.5px;
     width: 402px;
   }
-  .map-text {
-  }
+
   .map-tel {
     margin: auto;
   }
