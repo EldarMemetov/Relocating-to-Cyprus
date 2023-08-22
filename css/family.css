@@ -131,7 +131,7 @@ ul {
 
 .section-family {
   background-image: url(../images/img-test/family-ocean.jpg);
-  background-size: 100% 100%;
+  background-size: 448px;
   background-position: center;
   background-repeat: no-repeat;
   padding-bottom: 470px;
@@ -160,13 +160,24 @@ ul {
   padding-top: 80px;
   padding-bottom: 80px;
   background-image: url(../images/img-test//img-main.jpg);
-  background-size: 100% 100%;
+  background-size: 448px;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
 }
 
+.living-text {
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px; /* 114.286% */
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 34px;
+}
 .living-info {
   color: #ffffff;
   font-size: 16px;
@@ -190,7 +201,7 @@ ul {
   padding-top: 35px;
   padding-bottom: 34px;
   background-image: url(../images/img-test//img-main-next.jpg);
-  background-size: 100% 100%;
+  background-size: 448px;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -220,7 +231,7 @@ ul {
   padding-top: 35px;
   padding-bottom: 34px;
   background-image: url(../images/img-test//img-yes.jpg);
-  background-size: 100% 100%;
+  background-size: 448px;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -244,7 +255,7 @@ ul {
   /* background: linear-gradient(180deg, #fefc9e 0%, #fdbfa3 78.65%); */
   padding-top: 80px;
   background-image: url(../images/img-test/scaile.jpg);
-  background-size: 100% 100%;
+  background-size: 448px;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -303,7 +314,7 @@ ul {
   );
   z-index: 5; */
   background-image: url(../images/img-test/ocean.jpg);
-  background-size: 100% 100%;
+  background-size: 448px;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
