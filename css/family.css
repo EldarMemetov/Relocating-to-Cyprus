@@ -130,12 +130,14 @@ ul {
 /** --------------section-1--------------- */
 
 .section-family {
-  background-image: url(../images/family-info-tel.png);
+  background-image: url(../images/img-test/family-ocean.jpg);
   background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;
   padding-bottom: 470px;
   padding-top: 60px;
+  background-attachment: fixed;
+  background-size: cover;
 }
 .family-title {
   font-family: "Roboto", sans-serif;
@@ -157,20 +159,16 @@ ul {
 .life-info {
   padding-top: 80px;
   padding-bottom: 80px;
+  background-image: url(../images/img-test//img-main.jpg);
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
-.living-text {
-  font-family: "Roboto", sans-serif;
-  color: #434364;
-  font-size: 28px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 32px; /* 114.286% */
-  text-transform: uppercase;
-  text-align: center;
-  margin-bottom: 34px;
-}
+
 .living-info {
-  color: #434364;
+  color: #ffffff;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -189,10 +187,17 @@ ul {
 }
 /** --------------section-3--------------- */
 .section-community {
+  padding-top: 35px;
   padding-bottom: 34px;
+  background-image: url(../images/img-test//img-main-next.jpg);
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 .text-community {
-  color: #434364;
+  color: #ffffff;
   font-size: 28px;
   font-style: normal;
   font-weight: 600;
@@ -202,7 +207,7 @@ ul {
   margin-bottom: 20px;
 }
 .living-info-text {
-  color: #434364;
+  color: #ffffff;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -212,10 +217,17 @@ ul {
 }
 /** --------------section-4--------------- */
 .section-like {
+  padding-top: 35px;
   padding-bottom: 34px;
+  background-image: url(../images/img-test//img-yes.jpg);
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 .text-like {
-  color: #434364;
+  color: #ffffff;
   font-size: 28px;
   font-style: normal;
   font-weight: 600;
@@ -229,12 +241,18 @@ ul {
 }
 /** --------------section-5--------------- */
 .section-help-info {
-  background: linear-gradient(180deg, #fefc9e 0%, #fdbfa3 78.65%);
+  /* background: linear-gradient(180deg, #fefc9e 0%, #fdbfa3 78.65%); */
   padding-top: 80px;
+  background-image: url(../images/img-test/scaile.jpg);
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 .text-help {
   font-family: "Roboto", sans-serif;
-  color: #434364;
+  color: #ffffff;
   text-align: center;
   font-size: 36px;
   font-style: normal;
@@ -254,7 +272,7 @@ ul {
   margin: auto;
 }
 .info-help {
-  color: #6d31d0;
+  color: #f1f4f5;
   text-align: center;
   font-size: 20px;
   font-style: normal;
@@ -263,7 +281,7 @@ ul {
   min-width: 190px;
 }
 .info-help-text {
-  color: #434364;
+  color: #ffffff;
   text-align: center;
   font-size: 16px;
   font-style: normal;
@@ -276,17 +294,23 @@ ul {
 .section-contact {
   padding-top: 60px;
   padding-bottom: 60px;
-  background: linear-gradient(
+  /* background: linear-gradient(
     180deg,
     rgba(109, 49, 208, 0.1) 0%,
     rgba(109, 49, 208, 0.21) 28.65%,
     rgba(109, 49, 208, 0.47) 53.13%,
     #6d31d0 100%
   );
-  z-index: 5;
+  z-index: 5; */
+  background-image: url(../images/img-test/ocean.jpg);
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 .text-contact {
-  color: #434364;
+  color: #ffffff;
   text-align: center;
   font-size: 36px;
   font-style: normal;
@@ -307,7 +331,7 @@ ul {
   display: none;
 }
 .tel-number {
-  color: #6d31d0;
+  color: #ffffff;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -323,7 +347,7 @@ ul {
   margin-right: auto;
 }
 .email-item {
-  color: #6d31d0;
+  color: #ffffff;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -452,7 +476,13 @@ ul {
 .section-footer {
   padding-top: 14px;
   padding-bottom: 14px;
-  background: #828cde;
+  /* background: #828cde; */
+  background-image: url(../images/img-test/scaile.jpg);
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .footer-item {
@@ -525,7 +555,7 @@ ul {
   }
   /** --------------section-1--------------- */
   .section-family {
-    background-image: url(../images/family-info-tablet.png);
+    background-image: url(../images/img-test/family-ocean.jpg);
   }
   /** --------------section-2--------------- */
   .living-info {
@@ -617,7 +647,7 @@ ul {
   }
   /** --------------section-1--------------- */
   .section-family {
-    background-image: url(../images/family-info-comp.png);
+    background-image: url(../images/img-test/family-ocean.jpg);
   }
   /** --------------section-2--------------- */
   .img-information-tablet {

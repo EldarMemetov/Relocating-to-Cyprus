@@ -63,6 +63,7 @@ ul {
 }
 
 /** --------------modal-menu--------------- */
+
 .modal-mobail {
   visibility: hidden;
   opacity: 0;
@@ -131,6 +132,8 @@ ul {
   background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 .container-fon {
   padding-top: 40px;
@@ -311,6 +314,7 @@ ul {
 .business-tablet {
   display: none;
 }
+
 /** --------------section-3--------------- */
 .section-paradise {
   background: linear-gradient(152deg, #80d19f 0%, #fdbfa3 100%);
