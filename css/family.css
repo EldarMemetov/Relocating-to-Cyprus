@@ -130,7 +130,7 @@ ul {
 /** --------------section-1--------------- */
 
 .section-family {
-  background-image: url(../images/fon-comp.png);
+  background-image: url(../images/family-info-tel.png);
   background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -528,7 +528,7 @@ ul {
   }
   /** --------------section-1--------------- */
   .section-family {
-    background-image: url(../images/img-test/family-ocean.jpg);
+    background-image: url(../images/family-info-tablet.png);
   }
   /** --------------section-2--------------- */
   .living-info {
@@ -620,7 +620,10 @@ ul {
   }
   /** --------------section-1--------------- */
   .section-family {
-    background-image: url(../images/img-test/family-ocean.jpg);
+    background-image: url(../images/family-info-comp.png);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
   }
   /** --------------section-2--------------- */
   .img-information-tablet {
